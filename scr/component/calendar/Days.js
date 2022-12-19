@@ -20,6 +20,7 @@ const Days = ({ currentYear, currentMonth, selectDay, setSelectDay }) => {
     currentYear,
     currentMonth
   );
+
   const printDays = () => {
     const days = [];
     for (let i = 0; i < 42; i++) {
@@ -56,6 +57,7 @@ const Days = ({ currentYear, currentMonth, selectDay, setSelectDay }) => {
 const DaysContainer = styled.View`
   width: 100%;
   height: 100%;
+  flex: 1;
   flex-direction: row;
   flex-wrap: wrap;
 `;

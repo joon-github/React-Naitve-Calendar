@@ -5,7 +5,6 @@ import styled from "styled-components/native";
 export const Home = () => {
   return (
     <NavItemContainer>
-      <Text>아이콘</Text>
       <Text>HOME</Text>
     </NavItemContainer>
   );
@@ -14,7 +13,6 @@ export const Home = () => {
 export const MyPage = () => {
   return (
     <NavItemContainer>
-      <Text>아이콘</Text>
       <Text>MYPAGE</Text>
     </NavItemContainer>
   );

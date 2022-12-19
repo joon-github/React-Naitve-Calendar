@@ -9,7 +9,7 @@ const WeeksHeader = () => {
       {weeks.map((week, idx) => (
         <WeeksHeadText
           key={idx}
-          color={idx === 0 ? "red" : idx === 6 ? "blue" : null}
+          color={idx === 0 ? "red" : idx === 6 && "blue"}
         >
           {week}
         </WeeksHeadText>

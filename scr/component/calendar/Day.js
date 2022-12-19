@@ -25,14 +25,14 @@ const DayContainer = styled.View`
 `;
 
 const DayText = styled.Text`
-  ${({ isCurrMonthDay }) => !isCurrMonthDay && `color : gray`}
+  ${({ isCurrMonthDay }) => !isCurrMonthDay && "color : gray"}
 `;
 const DayCheck = styled.View`
-  display: ${({ idx, selectDay }) => (idx === selectDay ? `block` : `none`)};
+  display: ${({ idx, selectDay }) => (idx === selectDay ? "flex" : "none")};
   position: absolute;
   height: 35px;
   width: 35px;
   border: 1px solid blue;
-  border-radius: 50%;
+  border-radius: 50px;
 `;
 export default Day;

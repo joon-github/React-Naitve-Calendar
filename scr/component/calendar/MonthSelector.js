@@ -42,7 +42,6 @@ const MonthSelectorContainer = styled.View`
   justify-content: space-between;
   height: 40px;
   width: 100%;
-  font-size: 24px;
 `;
 const MonthSelectorTitle = styled.Text`
   font-size: 20px;
